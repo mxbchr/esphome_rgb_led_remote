@@ -8,6 +8,6 @@ For more info see:
 https://esphome.io/components/remote_receiver.html  
 https://esphome.io/components/light/rgb.html  
 
-![LDS71-RGB-AF-24-remote](https://github.com/mxbchr/esphome_rgb_led_remote/assets/75482460/ac66b39f-d364-421e-a01e-a51c2b40d3e0)
+<img src="[Generic Remote](https://user-images.githubusercontent.com/75482460/271792515-ac66b39f-d364-421e-a01e-a51c2b40d3e0.jpg)" width=50% height=50%>
 
 ####### esphome generic rgb led strip controller ir remote codes
