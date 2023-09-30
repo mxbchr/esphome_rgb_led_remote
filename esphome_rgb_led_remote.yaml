@@ -1,7 +1,7 @@
 substitutions:
   devicename: "esphome_rgb_led_remote"
   light_entity: "rgb_strip"
-  # v- Sets the minimum PWM output the light still wokrs with, so that the light doesnt turn off, when you set it to i.e. 5 %, see "min_power" below
+  # v- Sets the minimum PWM output the light still works with, so that the light doesnt turn off, when you set it to i.e. 5 %, see "min_power" below
   ZVal: "0.0005"
 
 esphome:
@@ -35,7 +35,7 @@ output:
   - platform: esp8266_pwm
     id: output_red
     pin: GPIO14
-    # min_power: Sets the minimum PWM output the light still wokrs with, so that the light doesnt turn off, when you set it to i.e. 5 %
+    # min_power: Sets the minimum PWM output the light still works with, so that the light doesnt turn off, when you set it to i.e. 5 %
     min_power: $ZVal
     # zero_means_zero: Needed if min_power is used, otherwise the light will remain in minimal state when turned off
     zero_means_zero: true
