@@ -126,6 +126,7 @@ binary_sensor:
   - platform: remote_receiver
     name: "Remote ON"
     internal: true
+    # prevents all those buttons from showing up in HA
     nec:
     # I used the nec format because its just the easiest to edit
       address: 0xEF00
